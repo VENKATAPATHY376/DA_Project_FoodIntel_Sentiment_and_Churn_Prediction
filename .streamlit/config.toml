@@ -1,0 +1,8 @@
+[server]
+# Serve files from ./static (e.g. /app/static/data/foodintel_clean.csv)
+# so the original FoodIntel AI.html can fetch real project data instead of
+# falling back to its built-in sample rows.
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
