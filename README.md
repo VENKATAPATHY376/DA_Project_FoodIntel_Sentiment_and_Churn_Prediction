@@ -48,7 +48,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-No dataset download needed — the app fetches **live public Play Store reviews** on first run (needs internet). A cached copy is stored under `data/raw/live/` (24h TTL). Optional offline fallback: place `zomato-bangalore-restaurants.csv` in `data/raw/`.
+No dataset download needed — the app fetches **live public Play Store reviews** on first run (needs internet). A cached copy is stored under `data/raw/live/` (24h TTL). Optional offline fallback: place `zomato-bangalore-restaurants.csv` in `data/raw/` (not shipped in this repo — at 560 MB it exceeds GitHub's 100 MB per-file limit; download it from Kaggle). Datasets, caches, trained models and generated outputs are git-ignored and rebuilt at runtime.
 
 App: http://localhost:8501
 
