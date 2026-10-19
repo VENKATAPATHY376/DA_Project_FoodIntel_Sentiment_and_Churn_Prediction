@@ -98,8 +98,7 @@ FoodIntel-AI/
 ├── output/                     # self-contained FoodIntel_AI_filled.html (generated)
 ├── .streamlit/config.toml      # server.enableStaticServing = true
 ├── models/, reports/, tests/
-├── requirements.txt
-└── run_local.bat
+└── requirements.txt
 ```
 
 ## 5. Dashboard Pages
